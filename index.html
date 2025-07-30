@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <section id="login">
+      <div class="login-card">
+        <form class="login-form">
+          <svg
+            alt="Logo"
+            class="logo"
+            width="36"
+            height="40"
+            viewBox="0 0 36 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_2002_5840)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 15V31H5C5.52527 31 6.04541 31.1035 6.53076 31.3045C7.01599 31.5055 7.45703 31.8001 7.82837 32.1716C8.19983 32.543 8.49451 32.984 8.69556 33.4693C8.89648 33.9546 9 34.4747 9 35V40H21L36 25V9H31C30.4747 9 29.9546 8.89655 29.4692 8.69553C28.984 8.49451 28.543 8.19986 28.1716 7.82843C27.8002 7.457 27.5055 7.01602 27.3044 6.53073C27.1035 6.04544 27 5.5253 27 5V0H15L0 15ZM17 30H10V19L19 10H26V21L17 30Z"
+                fill="#0004E8"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_2002_5840">
+                <rect width="36" height="40" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <h1 class="welcome-title">Selamat datang, Silahkan login.</h1>
+
+          <div class="input-group">
+            <label for="email" class="form-label">Email</label>
+            <div class="input-container">
+              <svg
+                alt=""
+                class="input-icon"
+                width="42"
+                height="34"
+                viewBox="0 0 42 34"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 7L17.3298 18.4309C18.6522 19.3565 19.3134 19.8193 20.0325 19.9986C20.6678 20.157 21.3322 20.157 21.9675 19.9986C22.6866 19.8193 23.3478 19.3565 24.6702 18.4309L41 7M10.6 33H31.4C34.7603 33 36.4405 33 37.7239 32.346C38.8529 31.7708 39.7708 30.8529 40.346 29.7239C41 28.4405 41 26.7603 41 23.4V10.6C41 7.23969 41 5.55953 40.346 4.27606C39.7708 3.14708 38.8529 2.2292 37.7239 1.65396C36.4405 1 34.7603 1 31.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V23.4C1 26.7603 1 28.4405 1.65396 29.7239C2.2292 30.8529 3.14708 31.7708 4.27606 32.346C5.55953 33 7.23969 33 10.6 33Z"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <input
+                type="email"
+                id="email"
+                class="form-input"
+                placeholder="Masukan disini"
+              />
+            </div>
+          </div>
+
+          <div class="password-section">
+            <div class="input-group">
+              <label for="password" class="form-label">Password</label>
+              <div class="input-container">
+                <input
+                  type="password"
+                  id="password"
+                  class="form-input"
+                  placeholder="Masukan disini"
+                />
+              </div>
+            </div>
+            <p class="forgot-password-link">
+              Lupa password ? <a href="forgot_password.html">Klik disini</a>
+            </p>
+          </div>
+
+          <div class="actions-group">
+            <a href="dashboard1.html" class="btn btn-primary">Login</a>
+            <a href="sign_up.html" class="btn btn-secondary">Daftar</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
